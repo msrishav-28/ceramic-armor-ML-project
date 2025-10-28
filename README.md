@@ -2,12 +2,12 @@
 
 **Author:** M S Rishav Subhin  
 **License:** MIT License  
-**Status:** ✅ Production-Ready  
+**Status:** Production-Ready  
 **Last Updated:** October 2025
 
 ---
 
-## 📋 Overview
+## Overview
 
 A comprehensive machine learning system for predicting mechanical and ballistic properties of ceramic armor materials. This project combines advanced tree-based ensemble models with materials science domain knowledge to enable predictive modeling of five ceramic systems.
 
@@ -23,7 +23,7 @@ A comprehensive machine learning system for predicting mechanical and ballistic 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ python scripts/07_compile_results.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ceramic_armor_ml_project/
@@ -182,7 +182,7 @@ ceramic_armor_ml_project/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Main Configuration (`config/config.yaml`)
 
@@ -221,22 +221,22 @@ catboost:
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 Typical performance metrics achieved across ceramic systems:
 
 | Metric | Target | Status |
 |--------|--------|--------|
-| Mechanical Properties (R²) | ≥ 0.85 | ✅ Achieved |
-| Ballistic Properties (R²) | ≥ 0.80 | ✅ Achieved |
-| Transfer Learning (R²) | ≥ 0.75 | ✅ Achieved |
-| Model Interpretability | 100% | ✅ SHAP Analysis |
+| Mechanical Properties (R²) | ≥ 0.85 | Achieved |
+| Ballistic Properties (R²) | ≥ 0.80 | Achieved |
+| Transfer Learning (R²) | ≥ 0.75 | Achieved |
+| Model Interpretability | 100% | SHAP Analysis |
 
 ---
 
-## 🎯 Implemented Components
+## Implemented Components
 
-### ✅ Production-Ready (16+ Core Modules)
+### Production-Ready (16+ Core Modules)
 
 - **Base Infrastructure**: Configuration loader, logger, data utilities
 - **Feature Engineering**: Derived properties, phase stability, compositional descriptors
@@ -247,7 +247,7 @@ Typical performance metrics achieved across ceramic systems:
 - **Optimization**: Intel MKL acceleration, optimized inference
 - **Pipeline**: Full end-to-end execution pipeline
 
-### 📋 Components Requiring Implementation
+### Components Requiring Implementation
 
 - Data collection from APIs (AFLOW, JARVIS, Materials Project, NIST)
 - Advanced data preprocessing and cleaning
@@ -256,7 +256,7 @@ Typical performance metrics achieved across ceramic systems:
 
 ---
 
-## 🔍 Feature Engineering
+## Feature Engineering
 
 ### Compositional Features
 - Electronegativity-based descriptors
@@ -277,7 +277,7 @@ Typical performance metrics achieved across ceramic systems:
 
 ---
 
-## 🧠 Model Interpretability
+## Model Interpretability
 
 The project includes comprehensive SHAP (SHapley Additive exPlanations) analysis:
 
@@ -289,7 +289,7 @@ The project includes comprehensive SHAP (SHapley Additive exPlanations) analysis
 
 ---
 
-## ⚡ Performance Optimization
+## Performance Optimization
 
 ### Intel MKL Integration
 
@@ -306,7 +306,7 @@ The project includes comprehensive SHAP (SHapley Additive exPlanations) analysis
 
 ---
 
-## 📚 Dependencies
+## Dependencies
 
 ### Core Libraries
 
@@ -324,7 +324,7 @@ The project includes comprehensive SHAP (SHapley Additive exPlanations) analysis
 
 ---
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### Train a Single Model
 
@@ -364,7 +364,7 @@ predictions = learner.predict(X_test)
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - **Comprehensive Guide**: `PROJECT_DOCUMENTATION.md`
 - **Pipeline Details**: `COMPLETE-ML-PIPELINE.md`
@@ -373,7 +373,7 @@ predictions = learner.predict(X_test)
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Memory Issues
 - Reduce batch size in `config/config.yaml`
@@ -392,7 +392,7 @@ predictions = learner.predict(X_test)
 
 ---
 
-## 🔐 Security & Ethics
+## Security & Ethics
 
 - **Model Interpretability**: Full explainability via SHAP analysis
 - **Data Privacy**: No personal data used; only materials science data
@@ -401,7 +401,7 @@ predictions = learner.predict(X_test)
 
 ---
 
-## 📝 Citation
+## Citation
 
 If you use this project in your research, please cite:
 
@@ -416,7 +416,7 @@ If you use this project in your research, please cite:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
@@ -427,7 +427,7 @@ Contributions are welcome! Please:
 
 ---
 
-## 📞 Support
+## Support
 
 For questions or issues:
 - Check existing documentation in `docs/`
@@ -437,7 +437,7 @@ For questions or issues:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see `LICENSE` file for details.
 
@@ -447,4 +447,4 @@ This project is licensed under the MIT License - see `LICENSE` file for details.
 
 **Last Updated:** October 28, 2025  
 **Version:** 1.0.0  
-**Status:** Production-Ready ✅
+**Status:** Production-Ready
