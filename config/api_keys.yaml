@@ -1,0 +1,9 @@
+# API Keys Configuration
+# Add your API keys here and keep this file secure (add to .gitignore)
+
+materials_project: "YOUR_MATERIALS_PROJECT_API_KEY_HERE"
+# Get your key from: https://next-gen.materialsproject.org/api
+
+# Optional: Additional API keys for other databases
+aflow: "YOUR_AFLOW_API_KEY_HERE"  # If required
+jarvis: "YOUR_JARVIS_API_KEY_HERE"  # If required
