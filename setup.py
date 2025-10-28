@@ -4,8 +4,8 @@ setup(
     name="ceramic_armor_ml",
     version="1.0.0",
     description="Machine Learning Pipeline for Ceramic Armor Property Prediction",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="M S Rishav Subhin",
+    author_email="msrishav28@gmail.com",
     packages=find_packages(),
     python_requires=">=3.11",
     install_requires=[
